@@ -32,22 +32,23 @@ const puppeteer = require('puppeteer');
   await page.goto('https://media.interieur.gouv.fr/deplacement-covid-19/');  
   
   await page.keyboard.press('Enter');
-  await page.type('#field-firstname', 'Timothé-Renaud');
-  await page.type('#field-lastname', 'Langlois-Teston');
-  await page.type('#field-birthday', '28041998');
-  await page.type('#field-placeofbirth', 'La Seyne Sur Mer');
-  await page.type('#field-address', '10 AV de la convention');
-  await page.type('#field-city', 'Arcueil');
-  await page.type('#field-zipcode', '94110');
+  await page.type('#field-firstname', 'First-Name');
+  await page.type('#field-lastname', 'LastName');
+  await page.type('#field-birthday', '01011998');
+  await page.type('#field-placeofbirth', 'MaVilleZer');
+  await page.type('#field-address', 'Mon adresseZer');
+  await page.type('#field-city', 'MaVille');
+  await page.type('#field-zipcode', 'MyZip');
   await page.type('#field-datesortie', Jour);
   await page.type('#field-heuresortie', TimeZer);
   await page.click('#checkbox-travail');
   await page.click('#generate-btn');
   await page.keyboard.press('Enter');
+  /* 
   await page.keyboard.press('Enter');
   await page.keyboard.press('Enter');
   await page.keyboard.press('Enter');
-  await page.keyboard.press('Enter');
+  await page.keyboard.press('Enter'); */
   
   //await page.screenshot({path: 'example.png'});
   //await page.
