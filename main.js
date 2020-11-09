@@ -6,6 +6,7 @@
  * - npm i pupperteer
  * - relancé l'IDE
  * - lancé le script vie l'IDE
+ * Le script fonctionne a 70% voir les autres branches pour les issues.
  */
 
 const puppeteer = require('puppeteer');
@@ -40,6 +41,8 @@ const puppeteer = require('puppeteer');
   await page.type('#field-city', 'MaVille');
   await page.type('#field-zipcode', 'MyZip');
   await page.type('#field-datesortie', Jour);
+
+  //Issue with date time here
   await page.type('#field-heuresortie', TimeZer);
   await page.click('#checkbox-travail');
   await page.click('#generate-btn');
@@ -50,6 +53,8 @@ const puppeteer = require('puppeteer');
   await page.keyboard.press('Enter');
   await page.keyboard.press('Enter'); */
   
+
+  // Output File 
   //await page.screenshot({path: 'example.png'});
   //await page.
 })
