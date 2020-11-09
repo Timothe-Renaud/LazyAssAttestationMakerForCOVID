@@ -55,7 +55,6 @@ const puppeteer = require('puppeteer');
   
 
   // Output File 
-  //await page.screenshot({path: 'example.png'});
-  //await page.
+  await page.pdf({path: 'page.pdf'});
 })
 ();
