@@ -1,6 +1,6 @@
-# # LazyAssAttestationMakerForCOVID
+# LazyAssAttestationMakerForCOVID
 
-# ## Installation process
+## Installation process
 
 1. install node on ur device 
 2. install puppertee using this kommande :
